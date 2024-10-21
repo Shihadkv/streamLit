@@ -19,7 +19,7 @@ def fetch_data(conn):
     query = "SELECT * FROM employees"
     return pd.read_sql(query, conn)
 
-# Main Streamlit app
+# Main Streamlit application
 def main():
     st.title("Employee Data")
 
