@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 import os
 import numpy as np
 from datetime import datetime
-import matplotlib.pyplot as plt
+# import matplotlib.pyplot as plt
 # Connect to PostgreSQL
 
 load_dotenv()
